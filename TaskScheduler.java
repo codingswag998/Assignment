@@ -34,7 +34,7 @@ public class TaskScheduler {
         taskScheduler.runTask(2, tasks4, false);  // should be 0, 1
         System.out.println("****************************");
 
-        int[][] tasks5 = { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } }; // should be 0, 1, 2, 3
+        int[][] tasks5 = { { 1, 0 }, { 2, 0 }, { 3, 1 }, { 3, 2 } }; // should be 0, 1, 2, 3 and repeat
         taskScheduler.runTask(4, tasks5, true);
     }
 
